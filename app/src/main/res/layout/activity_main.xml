@@ -143,7 +143,10 @@
                         android:id="@+id/button10"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="Select" />
+                        android:text="Select"
+                        android:textColorHighlight="#D55252"
+                        android:textColorLink="#D64C4C"
+                        app:rippleColor="#E42264" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -217,6 +220,7 @@
                 android:layout_width="217dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
+                android:background="#FF4081"
                 android:text="Register" />
 
         </LinearLayout>
